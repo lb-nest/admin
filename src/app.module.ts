@@ -1,7 +1,7 @@
 import { ClassSerializerInterceptor, Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { APP_INTERCEPTOR } from '@nestjs/core';
-import * as Joi from 'joi';
+import Joi from 'joi';
 import { PrismaService } from './prisma.service';
 
 @Module({
